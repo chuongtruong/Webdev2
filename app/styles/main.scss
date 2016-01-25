@@ -1,0 +1,43 @@
+$icon-font-path:"../bower_components/bootstrap-sass/assets/fonts/bootstrap/";
+// add files to customize bootstrap
+@import "_custom-fonts.scss";
+@import "_custom-variables.scss";
+// bower:scss
+@import "bower_components/bootstrap-sass/assets/stylesheets/_bootstrap.scss";
+// endbower
+// your own css/scss
+// your own css/scss ends
+ .header {
+  background-image: url(../images/bg.jpg);
+  background-repeat: none;
+  background-size: cover;
+  background-position: center center;
+  color: white;
+}
+.navbar-default .navbar-nav > li > a {
+  color: #FFF;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 18px;
+    padding-bottom: 50%;
+}
+.navbar-default {
+  padding: 10px 0;
+}
+.text-intro {
+  padding: 20% 0 20%;
+}
+intro-area {
+  padding: 20% 0 20% 0;
+}
+.intro-title {
+  font-size: 30px;
+  font-weight: 300;
+}
+.banner-photo {
+  max-height: 80%;
+  max-width: 80%;
+}
+.white-area {
+padding: 4% 0 4% 0;
+}
